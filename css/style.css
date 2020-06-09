@@ -1,0 +1,12 @@
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: chartreuse;
+    font-size: 25px;
+    font-family: fantasy;
+}
