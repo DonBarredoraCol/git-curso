@@ -1,12 +1,21 @@
 
-h1 {
+.header h1 {
+
     color: blue;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+    background: rgba(255, 20, 20, .8);
+    margin: 0;
+    text-align: center;
 }
 
-p {
+.principal-sitio {
     color: chartreuse;
     font-size: 25px;
     font-family: fantasy;
+}
+
+.principal-descripcion {
+    color: black;
+    border: 2px solid black;
 }
