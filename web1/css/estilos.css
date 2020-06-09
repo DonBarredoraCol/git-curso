@@ -1,0 +1,55 @@
+/* Version App v1.1 - Estilos */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #1a1a1a;
+}
+
+.logo {
+	height: 60px;
+	width: 20%;
+}
+
+.logo img {
+	height: 100%;
+}
+
+.menu {
+	width: 80%;
+}
+
+.menu a {
+	display: flex;
+	align-items: center;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul {
+	margin: 0;
+	display: flex;
+}
+
+.menu ul li {
+	list-style: none;
+	margin-right: 15px;
+	padding: 0 15px;
+}
+
+.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+
+}
