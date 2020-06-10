@@ -3,53 +3,88 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 
-header {
-	width: 100%;
-	position: fixed;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	background: #1a1a1a;
+h2 {
+	color: white;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 15px;
 }
-
-.logo {
-	height: 60px;
-	width: 20%;
-}
-
-.logo img {
-	height: 100%;
-}
-
-.menu {
-	width: 80%;
-}
-
-.menu a {
-	display: flex;
-	align-items: center;
-}
-
-ul, li {
+.header {
+	background: #1C1B1B;
 	margin: 0;
+	width: auto;
+}
+.header h1 {
+	color: white;
+	margin: 10px auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.conainer-3g {
+	background: red;
+	width: 80px;
+	height: 20px;
+	color: white;
+	border-radius: 10px solid blue;
+	margin: 10px auto;
 	padding: 0;
 }
+.conainer-3g p {
+	text-align: center;
 
-.menu ul {
-	margin: 0;
+}
+
+.imagen {
+	width: 100px;
+	height: 40px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.regristo {
+	width: 1000px;
+	height: 800px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-.menu ul li {
-	list-style: none;
-	margin-right: 15px;
-	padding: 0 15px;
+.registro form input {
+	display: block;
+	background: #1C1B1B;
+	color: white;
+	margin: 0 0 10px 10px;
+	padding: 15px;
+	border: 2px solid #1C1B1B;
+}
+.formulario {
+	display: inherit;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
-.menu ul li a {
-	color: #fff;
+.registro-footer a {
+	color: white;
 	text-decoration: none;
+}
 
+ol, li {
+	margin: 0;
+	list-style: none;
+	color: white;
+}
+
+.contenido {
+	display: inherit;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/Vayne_loading_screen.jpg);
+	background-repeat: no-repeat;
 }
